@@ -9,7 +9,7 @@ const baseTemplate: InferenceResponse = {
   lifeYearsLostEstimate: { rangeYears: [0.1, 1.8], basis: 'Prototype heuristic — requires clinical review', confidence: 0.12 },
   riskIndicators: { nicotine: 'moderate', alcohol: 'moderate', co: 'moderate', thcPsych: 'moderate' },
   explanations: {
-    nicotine: 'Estimate derived from reported frequency and typical nicotine content per unit. Prototype only.',
+    nicotine: 'Estimae derived from reported frequency and typical nicotine content per unit. Prototype only.',
     co: 'CO rises with combustion exposure; range reflects population-level data.',
     alcohol: 'BAC estimated from reported units; hydration and metabolism vary widely.',
     thc: 'Memory impairment risk depends on potency, method, and individual factors.'
